@@ -1,0 +1,13 @@
+
+
+@font-face{
+    font-family: 'Times New Roman';
+    src: url('../fonts/times-new-roman/times-new-roman.ttf');
+}
+
+
+ 
+h1, h2 {
+    font-family: 'Times New Roman', serif !important;
+}
+
