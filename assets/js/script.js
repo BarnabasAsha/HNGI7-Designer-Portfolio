@@ -3,12 +3,13 @@ const nav = document.getElementById('mobile-nav');
 const closer = document.querySelector('.close');
 
 hamburger.addEventListener('click', (e) => {
-    e.preventDefault
+    e.preventDefault()
     console.log(1)
     nav.style.display = 'flex'
 })
 
-closer.addEventListener('click', () => {
+closer.addEventListener('click', (e) => {
+    e.preventDefault()
     nav.style.display = 'none'
 })
 
