@@ -89,7 +89,7 @@ body {
 .jumbo-col-1 p::after {
     content: ' ';
     position: absolute;
-    bottom: -30px;
+    bottom: -52px;
     left: 30px;
     width: 200px;
     border: 1px solid #0E0E0E;
