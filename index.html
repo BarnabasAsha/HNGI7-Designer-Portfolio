@@ -3,295 +3,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORM</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+    <title>Designer Portfolio</title>
+</head>
+<link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/font-body.css">
-</head>
 <body>
     <header>
-        <div class="container">
-            <div class="header d-flex flex-row justify-content-between align-items-center">
+        <div class="header">
+            <div class="container py-2 d-flex flex-row justify-content-between align-items-center">
                 <div class="logo">
                     <img src="./assets/images/Logo.svg" alt="">
                 </div>
                 <nav class="d-flex flex-row justify-content-center align-items-center">
-                    <a class="mr-5" href="">HOME</a>
-                    <a class="mr-5" href="">ABOUT</a>
-                    <a class="mr-5" href="">PORFOLIO</a>
-                    <a class="mr-5" href="">CONTACT</a>
+                    <a class="mr-5 py-1 px-1 active" href="">HOME</a>
+                    <a class="mr-5 py-1 " href="">ABOUT</a>
+                    <a class="mr-5 py-1 " href="">PORTFOLIO</a>
+                    <a class="mr-5 py-1 " href="">CONTACT</a>
                 </nav>
                 <div class="hamburger">
-                    <a href=""><img src="./assets/images/Nav.svg" alt=""></a>
+                    <img src="./assets/images/Nav.svg" alt="">
                 </div>
             </div>
+            <nav id="mobile-nav">
+                <a class="mb-2 py-1 px-1 active" href="">HOME</a>
+                <a class="mb-2 py-1 " href="">ABOUT</a>
+                <a class="mb-2 py-1 " href="">PORTFOLIO</a>
+                <a class="mb-2 py-1 " href="">CONTACT</a>
+                <a class="close" href="">X</a>
+            </nav>
         </div>
-
     </header>
     <section>
-        <div class="d-flex flex-row justify-content-between align-items-stretch hero">
-            <div class="jumbo-col-1">
-                <h1><span>Photos you want</span> to have.</h1>
+        <div class="hero d-flex flex-row-reverse justify-content-center align-items-center">
+            <div class="hero-bg">
+                <div href="" class="slide-arrow">
+                    <img src="./assets/images/slide-arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="hero-content d-flex flex-column justify-content-center align-items-start">
+                <h1 class="mb-5"><span>Photos you want</span> to have.</h1>
                 <p>Arcu, sed quis eu tempor, in. Massa ut mi euismod congue placerat ullamcorper adipiscing. Dolor sollicitudin egestas sit elementum aliquet. Aenean tellus varius augue quisque.</p>
-                <div class="scroll-down">
+                <div class="scroll-down mt-5">
                     <a href="#about"><img src="./assets/images/scroll.svg" alt=""></a>
                 </div>
             </div>
-            <div class="jumbo-col-2 col-6">
-                <a href="" class="slide-arrow">
-                    <img src="./assets/images/slide-arrow.svg" alt="">
-                </a>
-            </div>
         </div>
     </section>
-    <section>
-        <div class="services">
-            <h2 class="text-center mb-5">What can I do for you?</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center text-center mt-3 align-self-baseline mb-4">
-                        <div class="services-icon mb-3">
-                            <img src="./assets/images/camera.svg" alt="">
-                        </div>
-                        <h5>Photo Shooting</h5>
-                        <p class="mt-3">Diam ipsum euismod imperdiet aenean consequat sodales fames ac.</p>
+    <div class="services">
+        <h2 class="text-center mb-5">What can I do for you?</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center text-center mt-3 align-self-baseline mb-4">
+                    <div class="services-icon mb-3">
+                        <img src="./assets/images/camera.svg" alt="">
                     </div>
-                    <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center text-center align-self-baseline mb-4">
-                        <div class="services-icon mb-3">
-                            <img src="./assets/images/video-camera.svg" alt="">
-                        </div>
-                        <h5>Videography</h5>
-                        <p class="mt-3">Diam ipsum euismod imperdiet aenean consequat sodales fames ac.</p>
+                    <h5>Photo Shooting</h5>
+                    <p class="mt-3">Diam ipsum euismod imperdiet aenean consequat sodales fames ac.</p>
+                </div>
+                <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center text-center align-self-baseline mb-4">
+                    <div class="services-icon mb-3">
+                        <img src="./assets/images/video-camera.svg" alt="">
                     </div>
-                    <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center text-center align-self-baseline mb-4">
-                        <div class="services-icon mb-3">
-                            <img src="./assets/images/picture.svg" alt="">
-                        </div>
-                        <h5>Photo Editing</h5>
-                        <p class="mt-3">Diam ipsum euismod imperdiet aenean consequat sodales fames ac.</p>
+                    <h5>Videography</h5>
+                    <p class="mt-3">Diam ipsum euismod imperdiet aenean consequat sodales fames ac.</p>
+                </div>
+                <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center text-center align-self-baseline mb-4">
+                    <div class="services-icon mb-3">
+                        <img src="./assets/images/picture.svg" alt="">
                     </div>
-                    <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center text-center align-self-baseline mb-4">
-                        <div class="services-icon mb-3">
-                            <img src="./assets/images/visual-effects.svg" alt="">
-                        </div>
-                        <h5>Visual Effects</h5>
-                        <p class="mt-3">Diam ipsum euismod imperdiet aenean consequat sodales fames ac.</p>
+                    <h5>Photo Editing</h5>
+                    <p class="mt-3">Diam ipsum euismod imperdiet aenean consequat sodales fames ac.</p>
+                </div>
+                <div class="col-sm-3 d-flex flex-column justify-content-center align-items-center text-center align-self-baseline mb-4">
+                    <div class="services-icon mb-3">
+                        <img src="./assets/images/visual-effects.svg" alt="">
                     </div>
+                    <h5>Visual Effects</h5>
+                    <p class="mt-3">Diam ipsum euismod imperdiet aenean consequat sodales fames ac.</p>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section>
-        <div class="showcase row">
-            <div class="col-sm-4 showcase-col-1">
-                <div class="showcase-img">
-                </div>
-            </div>
-            <div class="col-sm-8 showcase-col-2 d-flex flex-row justify-content-center align-items-center align-self-center py-5 px-5">
-                <div class="left">
-                    <p>
-                        Sed nibh in urna, malesuada nunc, in. Et, adipiscing elit, vel condimentum. Ac enim, et amet ullamcorper in. Massa posuere sodales nec massa aliquet neque vulputate luctus. Lectus eget turpis nullam felis. Velit magna non facilisi at curabitur tellus netus. Ut accumsan scelerisque tempor nullam nisi. Etiam auctor pulvinar arcu euismod orci, ipsum eget amet, proin. Venenatis, sapien sit nulla ornare aenean nam. 
-                        <br><br>
-                        Scelerisque ipsum eget euismod sollicitudin odio imperdiet risus. Lectus sapien ut commodo scelerisque amet diam dictum tortor risus. Non ante bibendum elementum quis. Convallis id feugiat et cursus donec sit. In porta imperdiet felis, maecenas ipsum massa odio a. Phasellus non justo, sagittis aliquet elit. Massa massa blandit quam id morbi tortor aliquam turpis suscipit. Neque, diam, elit gravida mauris ut.
-                    </p>
-                </div>
-                <div class="right">
-                    <div class="showcase-text ">
-                        <h6>PERSONALITY</h6>
-                        <h3>My Journey</h3>
-                    </div>
-                    <div class="square-txt">
-                        <p>I’ve been collecting my work
-                            on this site. Wanna see?</p>
-                        <a href="" class="d-flex flex-row justify-content-start align-items-start">MY PORTFOLIO <span><img class="" src="./assets/images/arrow.svg" alt=""></span></a>
-                    </div>
-                </div>
+    </div>
+</section>
+<section>
+    <div class="showcase row">
+        <div class="col-sm-4 showcase-col-1">
+            <div class="showcase-img">
             </div>
         </div>
-    </section>
-
-    <section>
-        <div class="portfolio d-flex flex-column justify-content-center align-items-center">
-            <h5 class="mb-4">PHOTOGRAPHY</h5>
-            <h2 class="mb-5">Portfolio</h2>
-            <nav class="d-flex flex-row justify-content-center align-items-center">
-                <a class="active" href="">ALL</a>
-                <a href="">FASHION</a>
-                <a href="">WEDDINGS</a>
-                <a href="">ARCHITECTURE</a>
-                <a href="">OUTDOORS</a>
-                <a href="">TRAVEL</a>
-            </nav>
-
-            <select class="mb-5" name="portfolio" id="">
-                <option value="all" selected>ALL</option>
-                <option value="Weddings">WEDDINGS</option>
-                <option value="architecture">ARCHITECTURE</option>
-                <option value="outdoors">OUTDOORS</option>
-                <option value="travel">TRAVEL</option>
-            </select>
-            
-            <div class="portfolio-grid container-fluid m-auto">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-sm-7">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="img">
-                                                    <img src="/assets/images/woman-wearing-black-tank-top-leaning-on-glass-wall.png" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="img">
-                                                    <img src="./assets/images/alex-iby-.png" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="img">
-                                                    <img src="./assets/images/woman-in-water-in-grayscale-photography.png" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="img">
-                                                    <img src="./assets/images/woman-in-white-long-sleeve-shirt-and-black-pants-sitting-on.png" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="img">
-                                                    <img src="./assets/images/architecture-buildings-city-fog.png" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="img">
-                                            <img src="./assets/images/abstract-architecture-black-and-white-boardwalk.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-5">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="img none">
-                                            <img src="./assets/images/portrait-of-woman-wearing-teal-eyelashes.png" alt="A woman wearing teal eyelashes">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="img none">
-                                            <img src="./assets/images/woman-leaning-on-sinalco-cola-can.png" alt="">
-                                        </div>
-                                    </div>
-                                </div><div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="img none">
-                                            <img src="./assets/images/woman-in-white-shirt.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="portfolio-btn d-flex flex-row justify-content-center align-items-center">
-                <a href="" class="d-flex flex-row justify-content center">LOAD MORE <span class="ml-2"><img src="./assets/images/arrow.svg" alt=""></span></a>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="contact row">
-            <div class="col-sm-7 contact-col-1">
-                <h6 class="mb-4">CONTACT ME</h6>
-                <h2 class="mb-3">Have any questions?</h2>
-                <p>Erat facilisis proin magna nec. Amet orci felis, enim leo tellus nec lobortis varius. Lorem ultrices erat ut enim. Sit quam vel nulla quis malesuada eu sit nibh.</p>
-                <form action="">
-                    <div class="form-group">
-                        <input type="text" name="name" id="name" placeholder="Your Name">
-                        <input type="email" name="email" id="email" placeholder="Your Email">
-                    </div>
-                    <div class="formgroup">
-                        <textarea name="message" id="message" cols="30" rows="10">Submit Message</textarea>
-                    </div>
-                    <button class="mt-5 d-flex flex-row justify-content-center align-items-center">SEND <span class="ml-2"><img src="./assets/images/arrow.svg" alt=""></span></button>
-                </form>
-            </div>
-            <div class="col-sm-5 contact-col-2 d-flex flex-column justify-content-center align-items-start">
-                <div class="d-flex flex-column justify-content-center align-items-start mb-5">
-                    <h5>Location</h5>
-                    <p>7, New Kingston Court, Wakanda avenue, FL, USA</p>
-                </div>
-                <div class="d-flex flex-column justify-content-center align-items-start mb-5">
-                    <h5>Get in touch</h5>
-                    <p>justanotherrandomdude@kind.com</p>
-                    <span>+234-983-8365</span>
-                </div>
-                <div class="d-flex flex-column justify-content-center align-items-start mb-5">
-                    <h3>Social</h3>
-                    <a class="mb-3" href="">Twitter</a>
-                    <a class="mb-3" href="">Instagram</a>
-                    <a class="mb-3" href="">Linkedin</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="review">
-            <div class="review-img">
-                <div class="img"></div>
-                <a href="" class="slider">
-                    <img src="./assets/images/slide-arrow.svg" alt="">
-                </a>
-            </div>
-            <div class="review-text">
-                <h6 class="mb-3">REVIEWS</h6>
-                <h2 class="mb-4">Feedback</h2>
-                <p>Sed nibh in urna, malesuada nunc, in. Et, adipiscing elit, vel condimentum. Ac enim, et amet ullamcorper in. Massa posuere sodales
+        <div class="col-sm-8 showcase-col-2 d-flex flex-row justify-content-center align-items-start align-self-center py-5 px-5">
+            <div class="left">
+                <p>
+                    Sed nibh in urna, malesuada nunc, in. Et, adipiscing elit, vel condimentum. Ac enim, et amet ullamcorper in. Massa posuere sodales nec massa aliquet neque vulputate luctus. Lectus eget turpis nullam felis. Velit magna non facilisi at curabitur tellus netus. Ut accumsan scelerisque tempor nullam nisi. Etiam auctor pulvinar arcu euismod orci, ipsum eget amet, proin. Venenatis, sapien sit nulla ornare aenean nam. 
                     <br><br>
-                    Ut accumsan scelerisque tempor nullam nisi. Etiam auctor pulvinar arcu euismod orci, ipsum eget amet, proin. <br>
-                    <span class="reviewer py-5"><img class="mr-2" src="./assets/images/line.svg" alt="">Sandra, Model</span>
-                    </p>
+                    Scelerisque ipsum eget euismod sollicitudin odio imperdiet risus. Lectus sapien ut commodo scelerisque amet diam dictum tortor risus. Non ante bibendum elementum quis. Convallis id feugiat et cursus donec sit. In porta imperdiet felis, maecenas ipsum massa odio a. Phasellus non justo, sagittis aliquet elit. Massa massa blandit quam id morbi tortor aliquam turpis suscipit. Neque, diam, elit gravida mauris ut.
+                </p>
+            </div>
+            <div class="right">
+                <div class="showcase-text">
+                    <h6>PERSONALITY</h6>
+                    <h3>My Journey</h3>
+                </div>
+                <div class="square-txt">
+                    <p>I’ve been collecting my work
+                        on this site. Wanna see?</p>
+                    <a href="" class="d-flex flex-row justify-content-center align-items-start">MY PORTFOLIO <span><img class="ml-3" src="./assets/images/arrow.svg" alt=""></span></a>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <div class="footer mt-5 d-flex flex-column justify-content-center align-items-center">
-            <div class="logo">
-                <img src="./assets/images/Logo.svg" alt="">
-            </div>
-            <nav class="social-icons d-flex flex-row justify-content-center align-items-center mb-2">
-                <a class="mr-3" href=""><img src="./assets/images/Twitter.svg" alt=""></a>
-                <a class="mr-3" href=""><img src="./assets/images/instagram.svg" alt=""></a>
-                <a class="mr-3" href=""><img src="./assets/images/Linkedin.svg" alt=""></a>
-            </nav>
-            <p>&copy; 2020 Designed with Love | All right reserved</p>
+<section>
+    <div class="portfolio d-flex flex-column justify-content-center align-items-center">
+        <h5 class="mb-4">PHOTOGRAPHY</h5>
+        <h2 class="mb-5">Portfolio</h2>
+        <nav class="d-flex flex-row justify-content-center align-items-center">
+            <a class="active" href="">ALL</a>
+            <a href="">FASHION</a>
+            <a href="">WEDDINGS</a>
+            <a href="">ARCHITECTURE</a>
+            <a href="">OUTDOORS</a>
+            <a href="">TRAVEL</a>
+        </nav>
+
+        <select class="mb-5" name="portfolio" id="">
+            <option value="all" selected>ALL</option>
+            <option value="Weddings">WEDDINGS</option>
+            <option value="architecture">ARCHITECTURE</option>
+            <option value="outdoors">OUTDOORS</option>
+            <option value="travel">TRAVEL</option>
+        </select>
+        
+        
+        <div class="portfolio-btn d-flex flex-row justify-content-center align-items-center">
+            <a href="" class="d-flex flex-row justify-content center">LOAD MORE <span class="ml-2"><img src="./assets/images/arrow.svg" alt=""></span></a>
         </div>
-    </footer>
-    <script src="./assets/js/jquery-3.5.1.min.js"></script>
-    <script src="./assets/js/wow.js"></script>
-    <script src="./assets/js/script.js"></script>
+    </div>
+</section>
+
+<section>
+    <div class="contact row">
+        <div class="col-sm-7 contact-col-1">
+            <h6 class="mb-4">CONTACT ME</h6>
+            <h2 class="mb-3">Have any questions?</h2>
+            <p>Erat facilisis proin magna nec. Amet orci felis, enim leo tellus nec lobortis varius. Lorem ultrices erat ut enim. Sit quam vel nulla quis malesuada eu sit nibh.</p>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                    <input type="email" name="email" id="email" placeholder="Your Email">
+                </div>
+                <div class="formgroup">
+                    <textarea name="message" id="message" cols="30" rows="10">Submit Message</textarea>
+                </div>
+                <button class="mt-5 d-flex flex-row justify-content-center align-items-center">SEND <span class="ml-2"><img src="./assets/images/arrow.svg" alt=""></span></button>
+            </form>
+        </div>
+        <div class="col-sm-5 contact-col-2 d-flex flex-column justify-content-center align-items-start">
+            <div class="d-flex flex-column justify-content-center align-items-start mb-5">
+                <h5>Location</h5>
+                <p>7, New Kingston Court, Wakanda avenue, FL, USA</p>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-start mb-5">
+                <h5>Get in touch</h5>
+                <p>justanotherrandomdude@kind.com</p>
+                <span>+234-983-8365</span>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-start mb-5">
+                <h3>Social</h3>
+                <a class="mb-3" href="">Twitter</a>
+                <a class="mb-3" href="">Instagram</a>
+                <a class="mb-3" href="">Linkedin</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="review">
+        <div class="review-img">
+            <div class="img"></div>
+            <a href="" class="slider">
+                <img src="./assets/images/slide-arrow.svg" alt="">
+            </a>
+        </div>
+        <div class="review-text">
+            <h6 class="mb-3">REVIEWS</h6>
+            <h2 class="mb-4">Feedback</h2>
+            <p>Sed nibh in urna, malesuada nunc, in. Et, adipiscing elit, vel condimentum. Ac enim, et amet ullamcorper in. Massa posuere sodales
+                <br><br>
+                Ut accumsan scelerisque tempor nullam nisi. Etiam auctor pulvinar arcu euismod orci, ipsum eget amet, proin. <br>
+                <span class="reviewer py-5"><img class="mr-2" src="./assets/images/line.svg" alt="">Sandra, Model</span>
+                </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer mt-5 d-flex flex-column justify-content-center align-items-center">
+        <div class="logo">
+            <img src="./assets/images/Logo.svg" alt="">
+        </div>
+        <nav class="social-icons d-flex flex-row justify-content-center align-items-center mb-2">
+            <a class="mr-3" href=""><img src="./assets/images/Twitter.svg" alt=""></a>
+            <a class="mr-3" href=""><img src="./assets/images/instagram.svg" alt=""></a>
+            <a class="mr-3" href=""><img src="./assets/images/Linkedin.svg" alt=""></a>
+        </nav>
+        <p>&copy; 2020 Designed with Love | All right reserved</p>
+    </div>
+</footer>
+<script src="./assets/js/jquery-3.5.1.min.js"></script>
+<script src="./assets/js/wow.js"></script>
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
