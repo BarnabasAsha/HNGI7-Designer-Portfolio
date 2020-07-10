@@ -18,7 +18,7 @@ a {
     color: #000;
 }
 
-.mobile-nav {
+#mobile-nav {
     display: none;
 }
 
@@ -453,11 +453,38 @@ width: 100vw;
 @media only screen and (max-width: 480px) {
 
     /* Header and Navigation */
+
+    .logo {
+        z-index: 100;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        right: 1em;
+        top: 1em;
+        width: 20px;
+        
+    }
+
+
     #mobile-nav {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100vw;
+        height: 50vh;
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
+    }
+
+
+    #mobile-nav a {
+        font-weight: 600;
     }
 
     .hamburger {
@@ -722,13 +749,7 @@ width: 100vw;
         font-size: 0.8rem;
     }
 
-    .close {
-        display: block;
-        position: absolute;
-        right: 0.5em;
-        top: 1em;
-        font-size: 2rem;
-    }
+    
 
     
 }
