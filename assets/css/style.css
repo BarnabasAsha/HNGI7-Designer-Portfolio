@@ -107,7 +107,7 @@ body {
 .jumbo-col-2 {
     width: 50vh;
     position: relative;
-    background: url(../images/bg-desktop.svg);
+    background: url(../images/bg-desktop.png);
     background-size: cover;
     height: 912px;
 }
@@ -165,7 +165,7 @@ body {
 .showcase .showcase-img {
     width: 587px;
     height: 838px;
-    background: url(../images/woman-img.svg);
+    background: url(../images/woman-img.png);
     background-position: center;
     background-size: cover;
 }
@@ -442,7 +442,7 @@ body {
     }
 
     .review .review-img .img {
-        background: url(../images/review-img.svg);
+        background: url(../images/review-img.png);
         width: 573px;
         height: 517px;
         margin-bottom: 1em;
@@ -528,7 +528,7 @@ body {
     }
 
     .jumbo-col-2 {
-        background: url(../images/bg-mobile.svg);
+        background: url(../images/bg-mobile.png);
         background-repeat: no-repeat;
         width: 50%;
     }
@@ -716,7 +716,7 @@ body {
         margin: auto;
         width: 251.18px;
         height: 226.63px;
-        background: url(../images/review-img.svg);
+        background: url(../images/review-img.png);
         background-size: cover;
         background-position: center;
     }
