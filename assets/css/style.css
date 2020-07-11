@@ -27,9 +27,9 @@ body {
 }
 
 img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    width: auto;
+    height: 100%;
+    
 }
 
 .logo {
@@ -93,8 +93,8 @@ img {
 }
 
 .hero .scroll-down {
-    width: 100px;
-    height: 80px;
+    width: 190px;
+    height: 120px;
 }
 
 .hero .hero-content h1, .hero .hero-content span {
@@ -266,8 +266,103 @@ img {
     margin: 5em 0;
 }
 
+
 .portfolio select {
     display: none;
+}
+
+.portfolio {
+    margin-top: 5em;
+}
+
+.portfolio h5 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 90.99%
+}
+
+.portfolio h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90.99%;
+}
+
+.portfolio nav {
+    margin-bottom: 123px;
+}
+
+.portfolio nav a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 90.99%; 
+    color: #878787;
+    margin-right: 1em;   
+    padding: 2px 10px;
+    text-decoration: none;
+}
+
+.portfolio nav .active {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 90.99%;  
+    color: #1E252C;
+    border-bottom: 3px solid #000000;  
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2px;
+    margin: auto;
+    width: 95vw;
+    overflow: hidden;
+}
+
+.brother-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+    grid-template-rows: 3fr 1fr;
+}
+
+.children-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap:5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.portfolio .portfolio-btn {
+    width: 322px;
+    height: 50px;
+    background: #0E0E0E;
+    margin-top: 80px;
+}
+
+.portfolio .portfolio-btn a {
+    font-family: Poppins sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.portfolio .portfolio-btn a span {
+    width: 45px;
+    height: 6.5px;    
 }
 
 /* Contact */
@@ -277,7 +372,7 @@ img {
 }
 
 .contact-col-1 {
-    padding-left: 141px;
+    padding-left: 200px;
 }
 
 .contact-col-1 h6 {
@@ -314,7 +409,7 @@ img {
     border: none;
     border-bottom: 4px solid #999B9A;
     background: none;
-    width: 45%;
+    width: 35%;
     margin-right: 43px;
     z-index: 10;
     padding: 10px;
@@ -325,11 +420,11 @@ img {
 }
 
 .contact-col-1 form textarea {
-    margin-top: 9em;
+    margin-top: 5em;
     border: none;
     border-bottom: 4px solid #999B9A;
     background: none;
-    width: 96%;
+    width: 75.5%;
     height: 50px;
     color: #999B9A;
     z-index: 10;
@@ -349,10 +444,11 @@ img {
 
 .contact .contact-col-2 {
     z-index: -1;
-    width: 960px;
+    width: 1400px;
     height: 597px;
     background: #EAD7D7;
-    padding: 0 200px;
+    padding: 2em 10em 2em 25em;
+    
 }
 
 .contact .contact-col-2 h5 {
@@ -434,9 +530,10 @@ img {
     line-height: 90.99%;        
 }
 
-.review .review-img .slider {
+.review .review-img .review-slider {
     width: 224px;
     height: 50px;
+    margin-top: 1em;
 }
 
 
@@ -460,6 +557,7 @@ width: 100vw;
 
     .logo {
         z-index: 100;
+        height: 50px;
     }
 
     .close {
@@ -468,9 +566,7 @@ width: 100vw;
         right: 1em;
         top: 1em;
         width: 20px;
-        
     }
-
 
     #mobile-nav {
         display: none;
@@ -493,8 +589,8 @@ width: 100vw;
 
     .hamburger {
         display: block;
-        width: 120px;
-        height: 60px;
+        width: 80px;
+        height: 25px;
     }
 
     .header nav {
@@ -553,10 +649,10 @@ width: 100vw;
         display: none;
     }
 
-    .jumbo-col-2 .slide-arrow {
+    .hero .slide-arrow {
+        left: 6em;
         right: 0 !important;
-        left: 50em;
-        width: 150px;
+        width: 100px;
         height: 48px
     }
 
@@ -568,22 +664,25 @@ width: 100vw;
         font-size: 2rem;
     }
 
+    /* Showcase */
+
     .showcase {
         position: relative;
         flex-direction: column !important;
+        margin-top: 5em;
     }
 
     .showcase .showcase-img {
-        width: 60%;
-        height: 280px;
+        width: 65%;
+        height: 300px;
         transform: translateY(5em);
-        z-index: 5;
+        z-index: 15;
     }
 
     .showcase .showcase-text {
         position: absolute;
-        top: -18em;
-        right: 1em;
+        top: -19em;
+        right: 0.5em;
     }
 
     .showcase .showcase-col-2 {
@@ -610,7 +709,7 @@ width: 100vw;
     }
 
     .showcase .showcase-col-2 .right h3 {
-        font-size: 1.9rem;
+        font-size: 2rem;
         line-height: 1rem;
     }
 
@@ -632,12 +731,27 @@ width: 100vw;
         display: none !important;
     }
 
+    .portfolio .portfolio-btn {
+        width: 200px;
+    }
+
+    .grid, .brother-grid, .children-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+     .img3, .img2, .img6, .img1 {
+        display: none;
+    }
+
     /* Contact */
+
 
     .contact-col-1 {
         padding-left: 2em;
         padding-right: 4em;
         margin: auto;
+        height: 300px !important;
     }
 
 
@@ -654,10 +768,11 @@ width: 100vw;
     }
 
     .contact-col-1 p {
-        font-size: 18px;
+        font-size: 1rem;
         line-height: 147.99%;
         width: 100%;
         margin-bottom: 1em;
+        height: auto;
     }
 
     .contact-col-1 form input {
@@ -670,15 +785,18 @@ width: 100vw;
         width: 100%;
     }
 
-    .contact-col-2 {
+    .contact .contact-col-2 {
+        padding-top: 7em !important;
         margin: 0 auto;
         height: auto;
+        justify-content: center !important;
     }
 
     .contact-col-1 form {
         width: 100%;
-        margin: 3em auto 0 auto;
+        margin: 3em auto 0 1em !important;
         height: auto;
+        justify-content: center !important;
     }
     .contact-col-1 form button {
         width: 181.35px;
@@ -741,7 +859,7 @@ width: 100vw;
         line-height: 90.99%;
     }
 
-    .review .review-img .slider {
+    .review .review-img .review-slider {
         display: none;
     }
 
