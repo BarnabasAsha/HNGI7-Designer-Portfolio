@@ -27,9 +27,7 @@ body {
 }
 
 img {
-    width: auto;
     height: 100%;
-    
 }
 
 .logo {
@@ -314,34 +312,22 @@ img {
     border-bottom: 3px solid #000000;  
 }
 
-.grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 2px;
-    margin: auto;
-    width: 95vw;
-    overflow: hidden;
+.container-grid {
+    overflow: hidden !important;
+    width: 98vw !important;
+    margin: auto !important;
 }
 
-.brother-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    gap: 5px;
-    grid-template-rows: 3fr 1fr;
+.container-grid .col, .container-grid .row {
+    overflow: hidden !important;
+    min-width: 100% !important;
+
 }
 
-.children-grid {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    gap:5px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+.container-grid .col {
+    margin: 5px 0 !important;
 }
+
 
 .portfolio .portfolio-btn {
     width: 322px;
@@ -676,7 +662,11 @@ width: 100vw;
         width: 65%;
         height: 300px;
         transform: translateY(5em);
-        z-index: 15;
+        z-index: 150 !important;
+    }
+
+    .showcase .showcase-col-1 {
+        z-index: 150 !important;
     }
 
     .showcase .showcase-text {
@@ -690,6 +680,7 @@ width: 100vw;
         margin: auto;
         height: auto;
         flex-direction: column !important;
+        z-index: 2;
     }
 
     .showcase .showcase-col-2 .left {
@@ -725,6 +716,9 @@ width: 100vw;
     /* Portfolio */
     .portfolio select {
         display: block;
+        width: 153.99px;
+        height: 37.11px;
+        padding: 7px;
     }
 
     .portfolio nav {
@@ -735,13 +729,12 @@ width: 100vw;
         width: 200px;
     }
 
-    .grid, .brother-grid, .children-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+    .container-grid .col {
+        margin: 0 !important;
     }
 
-     .img3, .img2, .img6, .img1 {
-        display: none;
+     .none {
+        display: none !important;
     }
 
     /* Contact */
@@ -751,7 +744,7 @@ width: 100vw;
         padding-left: 2em;
         padding-right: 4em;
         margin: auto;
-        height: 300px !important;
+        height: 305px !important;
     }
 
 
